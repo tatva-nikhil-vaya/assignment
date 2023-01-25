@@ -1,0 +1,90 @@
+body {
+    background-color:  #FAFAFA ;
+  }
+img.image{
+    
+    
+    border: 20px solid white;
+    margin: 176px 213px;;
+
+}
+.right{
+    float: left;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.logoimage{
+    margin-top: 20px;
+}
+
+.content{
+    font-size: 40px;
+    margin-right: 155px;
+    color: #3E3E3E;
+}
+.form > p{
+    margin-bottom: 23.5px;
+    
+}
+#content2{
+    margin: 32px;
+    font-size: 25px;
+    color: #3E3E3E
+}
+#pd ,#uname{
+    width: 429px;
+    height: 49px;
+    background: #FFFFFF ;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}  
+.btns{
+    display: flex;
+    margin-top: 30px;
+}
+.content > b{
+    color: #C8242F
+}
+.content2 {
+    margin-top: 23px;
+    color: #ADADAD;
+}
+
+.loginbtn > input{
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px ;
+    border: none;
+    opacity: 1;
+    width: 138px;
+    height: 45px;
+    color: white;
+}
+
+.content2 > a{
+    width: 88px;
+    height: 20px;
+    text-align: left;
+    font: normal normal normal 15px Roboto;
+    letter-spacing: 0px;
+    color: #C8242F;
+}
+a{
+    text-decoration: none ;
+}
+#forgotpd > a{
+    color: #ADADAD;
+}
+#forgotpd{
+    margin-left: 166px;
+    margin-top: 20px;
+
+}
