@@ -1,0 +1,220 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+}
+
+nav > span{
+    height: 60px;
+    padding: 10px;
+}
+.menu{
+    width: 50px;
+    margin: 10px;
+    margin-top: 20px;
+    padding-left: 40px;
+
+}
+.companylogo{
+    width: 215px;
+    margin: 10px 20px;
+
+}
+
+.search{
+    width: 1250px;
+    margin: 10px;    
+    margin-top: 20px;
+}
+.notify{
+    margin: 10px;
+    margin-top: 20px;
+    width: 60px;
+}
+.profile> img{
+    margin: 10px;
+}
+.primarymargin{
+    margin: 20px;
+}
+aside{
+    background:white;
+    height: 1370px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-top: 20px;
+}
+aside > div {
+    height:55px;
+   
+    font-size: 25px;
+    margin: 0px 37px;
+    /* border: 2px solid red; */
+}
+aside > div > img{
+    height: 24px;
+    width: 24px;
+    margin: 0px 17px ;
+}
+
+aside > div:hover{
+    background-color: #FFF3F4;
+    color: #C8242F;
+    border-radius: 5px;
+    
+}
+
+
+.aside > #da:active {
+    background: url("images\\dashboard-active.svg") no-repeat;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    background-color:#FAFAFA;
+    float: left;
+    width: 1573px;
+    height: 1370px;
+    padding-top: 20px;
+}
+
+.statsmain{
+    display: flex;
+}
+.stats{
+    background-color: #fff;
+    width: 272px;
+    height: 150px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.stats > img {
+    height: 40px;
+    width: 40px;
+    margin: 55px 30px;
+
+}
+.stats{
+align-items: center;
+}
+.graphmain{
+    display: flex;
+}
+.bgwhite{
+    background-color: white;;
+}
+.graphmain > div{
+    margin: -10px 20px;
+}
+#graph1 {
+    border-radius: 5px;
+    height: 470px;
+    width:70%;
+    
+}
+section  > div{
+    margin: 20px;
+}
+#graph2{
+    height: 470px;
+    width: 30%;
+    border-radius: 5px;
+
+}
+#graph1> p> a{
+    text-decoration: none;
+    color: #ADADAD;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+#graph1 >p > a:hover{
+    color: #C8242F;
+    text-decoration: underline;
+}
+
+.aligncenter{
+margin: auto;}
+
+.graphmain > div > img{
+    margin: 0px 20px;
+    max-width: fit-content;
+}
+
+#graph1> p > span{
+    margin-left: 20px;
+    margin-right: 710px;
+}
+
+#graph1 > p{
+    margin-top: 10px;
+}
+
+#graph2 >img{
+    margin-left:  77px;
+}
+
+ul{
+    list-style-type:disc ;
+    float: left;
+    width: 220px;
+    margin-left: 30px;
+}
+
+li::marker {
+    font-size: 2em;
+}
+
+#tablediv{
+    height: 630px;
+    width: 95%;
+    background-color: #fff;
+    margin: 40px;
+    border-radius: 5px;
+}
+
+.table{
+    padding: 20px;
+    font-size: 19px;
+}
+
+#tablediv> p> a{
+    text-decoration: none;
+    color: #ADADAD;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+#tablediv >p > a:hover{
+    color: #C8242F;
+     
+}
+
+#tablediv> p > span{
+    margin-left: 20px;
+    margin-right: 1260px;
+}
+.pendingcolor{
+    color: #BABABA;
+    background-color: #F8F8F8;
+    padding: 3px;
+    border-radius: 5px;
+    height:20px;
+}
+.paidcolor{
+    color: #3CDD5F;
+    background-color: #EBFFEF;
+    padding: 3px;
+    border-radius: 5px;
+    height:20px;
+}
+.failedcolor{
+    color: #FF4545;
+    background-color: #FFF5F5;
+    padding: 3px;
+    border-radius: 5px;
+    height:20px;
+}
