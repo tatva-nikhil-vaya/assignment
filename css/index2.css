@@ -1,54 +1,28 @@
 /* css for index page */
 body {
     background-color:  #FAFAFA ;
-    /* margin: 20px; */
-    line-height: normal;
+    margin-left: 20px;
   }
-.image{
+img.image{
     
-    margin-top: 15vh;
-    border-radius: 50%;
-    border: 20px solid #fff;
-    box-shadow: 0px 4px 31px #0000000A;
-    width: 576px;
-    height: 576px;
-    margin-left: 9%;
-    margin-right: 10%;
-    /* border: 20px solid white; */
     
+    border: 20px solid white;
+    margin: 176px 213px;;
 
-}
-
-.rightmain{
-    display: flex;
-    /* align-items: center; */
-    flex-direction: column;
-    padding: 10% 0%;
-    max-height: 100%;
-    max-width: 100%;
-    margin-bottom: 3%;
-    margin-right: 15%;
 }
 .right{
-    /* float: left;
-    width: 47%; */
-    max-width: 100%;
-    max-height: fit-content;
-    margin-top: 100px;
-    padding-right: 9%;
+    float: left;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
 }
 
 .left{
-    /* float: left;
-    
-    width: 50%; */
-    /* height: fit-content;
-    margin-top: 200px;
-    padding: 0px auto; */
-    display: flex;
-    max-height: 100%;
-  justify-content: center;
-  padding-left: 10%;
+    float: left;
+    width: 50%;
+    height: 100%;
 }
 .logoimage{
     margin-top: 20px;
@@ -56,7 +30,7 @@ body {
 
 .content{
     font-size: 40px;
-    /* margin-right: 300px; */
+    margin-right: 300px;
     color: #3E3E3E;
 }
 .form > p{
@@ -64,12 +38,12 @@ body {
     
 }
 #content2{
-    
+    margin: 32px;
     font-size: 25px;
     color: #3E3E3E
 }
 #pd ,#uname{
-    width: 65%;
+    width: 429px;
     height: 49px;
     background: #FFFFFF ;
     border: 1px solid #ADADAD;
@@ -112,7 +86,7 @@ a{
     color: #ADADAD;
 }
 #forgotpd{
-    margin-left: 25%;
+    margin-left: 166px;
     margin-top: 20px;
 
 }
