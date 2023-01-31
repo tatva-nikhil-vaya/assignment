@@ -1,0 +1,283 @@
+
+
+.topnav {
+    overflow: hidden;
+  
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  
+  
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+
+  .menu {
+    float: left;
+    width: 17%;
+    max-height: fit-content;
+  }
+  .menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .main {
+    float: left;
+    width: 83%;
+    padding: 0 20px;
+    overflow: hidden;
+    padding-right: 50px;
+  }
+ 
+
+ 
+  @media only screen and (max-width:1194px) {
+    /* For tablets: */
+    .main {
+      width: 68%;
+      padding: 0;
+    }
+    .menu{
+        width:32%;
+    }
+    
+  }
+  @media only screen and (max-width:768px) {
+    /* For mobile phones: */
+    .menu, .main {
+      width: 100%;
+    }
+    h1{
+        display: none;
+    }
+  }
+
+  @media only screen and (min-width:985px) {
+    .stats{
+        width: 100%;
+        margin: 0px;
+    }
+    .col-half-offset{
+    margin-left:4.111117%;
+}
+
+}
+  aside{
+      background:white;
+      height: fit-content;
+      /* width: 330px; */
+      display: flex;
+      flex-direction: column;
+      float: left;
+      padding: 29px;
+    }
+aside > div {
+    height:55px;
+    
+    font-size: 25px;
+    /* margin: 0px 0px; */
+    /* border: 2px solid red; */
+}
+aside > div > img{
+    height: 24px;
+    width: 24px;
+    margin: 0px 10px ;
+}
+
+aside > div:hover{
+    background-color: #FFF3F4;
+    color: #C8242F;
+    border-radius: 5px;
+    
+}
+
+
+.aside > #da:active {
+    background: url("images\\dashboard-active.svg") no-repeat;
+}
+
+
+section{
+    /* display: flex;
+    flex-direction: column; */
+    background-color:#FAFAFA;
+    float: left;
+    /* width: 1573px;
+    height: 1370px; */
+    padding-top: 20px;
+    height: fit-content;
+}
+
+.col-md-2{
+    width: 100%;
+
+}
+.col-half-offset{
+    margin-left:4.111117%;
+}
+
+.statsmain{
+    /* display: flex; */
+    width: 100%;
+}
+.stats{
+    background-color: #fff;
+    width: 120%;
+    max-height: fit-content;
+    margin: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+    
+
+}
+.stats > div{
+    margin-right: auto;
+}
+.stats > img {
+    max-height: 40px;
+    max-width: 40px;
+    margin-top: 55px ;
+    margin-bottom: 55px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.stats{
+align-items: center;
+}
+.graphmain{
+    /* display: flex; */
+}
+.bgwhite{
+    background-color: white;;
+}
+.graphmain > div{
+    /* margin: -10px 20px; */
+}
+#graph1 {
+    border-radius: 5px;
+    max-height: fit-content;
+    /* width:70%; */
+    
+}
+section  > div{
+    margin: 20px;
+}
+#graph2{
+    max-height: fit-content;
+    /* width: 30%; */
+    border-radius: 5px;
+    padding: auto;
+
+}
+#graph1> p> a{
+    text-decoration: none;
+    color: #ADADAD;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+#graph1 >p > a:hover{
+    color: #C8242F;
+    text-decoration: underline;
+}
+
+
+
+.graphmain > div > img{
+    margin: 0px 20px;
+    max-width: fit-content;
+}
+
+#graph1> p > span{
+    margin-left: 20px;
+    margin-right: 710px;
+}
+
+#graph1 > p{
+    margin-top: 10px;
+}
+
+#graph2 >img{
+    margin-left:  auto;
+}
+
+ul{
+    list-style-type:disc ;
+    float: left;
+    width: 220px;
+    margin-left: 30px;
+}
+
+li::marker {
+    font-size: 2em;
+}
+.table-responsive{
+    background-color: #fff;
+}
+#tablediv{
+    max-height: fit-content;
+    /* width: 800%; */
+    background-color: #fff;
+    /* margin: 40px; */
+    border-radius: 5px;
+    margin-right: auto;
+}
+
+.table{
+    padding: 20px;
+    font-size: 19px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.col-md-12{
+    background-color: #fff;
+}
+#tablediv> p> a{
+    text-decoration: none;
+    color: #ADADAD;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+#tablediv >p > a:hover{
+    color: #C8242F;
+     
+}
+
+#tablediv> p > span{
+    margin-left: 20px;
+    margin-right: 400px;
+}
+.pendingcolor{
+    color: #BABABA;
+    background-color: #F8F8F8;
+    padding: 3px;
+    border-radius: 5px;
+    height:20px;
+}
+.paidcolor{
+    color: #3CDD5F;
+    background-color: #EBFFEF;
+    padding: 3px;
+    border-radius: 5px;
+    height:20px;
+}
+.failedcolor{
+    color: #FF4545;
+    background-color: #FFF5F5;
+    padding: 3px;
+    border-radius: 5px;
+    height:20px;
+}
