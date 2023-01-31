@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="js" href="js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="css/innerpage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <nav>
@@ -40,7 +43,170 @@
         <div><img src="images\setting-default.svg" alt="setting-default">Seting</div>
     </aside>
     <section>
-        <h3>Analysis</h3>
+        <p style="font-size: xx-large ;">Analysis</p> 
+        <div class="container-fluid form ">
+            <form action="##">
+                <div class="row form ">
+                    <p>One Column</p>
+                    <div class="col-sm-12 " >
+                        <input type="text" name="Name" id="name" placeholder="Name" class="inputcol1"> 
+                    </div>
+                    <div class="col-sm-12">
+                        <select id="country" name="country" aria-placeholder="DropDown" class="inputcol1">
+                            <option value="au">Australia</option>
+                            <option value="ca">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-12">
+                        <textarea name="multline" id="multline" cols="100" rows="10" placeholder="Multiple line" class="inputcol1"></textarea>
+                    </div>
+                    <div class="col-sm-12">
+                        <p>Two Column</p>
+                        <div class="row">
+                        <div class="col-sm-6" >
+                            <input type="text" name="name2" id="name2" placeholder="Name" class="inputcol2">
+                        </div>
+                        <div class="col-sm-6" >
+                            <input type="text" name="username" id="username" placeholder="Username" class="inputcol2">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-6" >
+                                <input type="password" name="password" id="password" placeholder="Password" class="inputcol2">    
+                            </div>
+                            <div class="col-sm-6" >
+                                <select id="country" name="country2" aria-placeholder="country" class="inputcol2">
+                                    <option value="au">Australia</option>
+                                    <option value="ca">Canada</option>
+                                    <option value="usa">USA</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-sm-12" >
+                            <p>Three Column</p>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <input type="text" name="focus" id="focus" placeholder="Focus" class="inputcol3">
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="password" name="pssword2" id="password2" placeholder="Password" class="inputcol3">
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="text" name="disable" id="disable" placeholder="Disabled" disabled class="inputcol3">
+                                </div> 
+                            </div>
+                        </div>
+                    <div class="col-sm-12">
+                        <p>Four Column</p>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <input type="text" name="designation" id="designation" placeholder="Designation" class="inputcol4">   
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" name="name3" id="name3" placeholder="Name" class="inputcol4">
+                            </div>
+                            <div class="col-sm-3">  
+
+                                <input type="text" name="username2" id="username2" placeholder="Username" class="inputcol4">
+                            </div>
+                            <div class="col-sm-3">
+                                <select id="country" name="country2" aria-placeholder="country" class="inputcol4">
+                                    <option value="au">Australia</option>
+                                    <option value="ca">Canada</option>
+                                    <option value="usa">USA</option>
+                                    </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12">
+                        <p>Other Design Elements</p>
+                        <p class="font27">File Upload</p>
+                        <!-- <div class="file btn btn-lg btn-primary" style="height: min-content; width: 50px;"> -->
+							<div id="uploadbtn"><img src="images\cloud-upload-icon.svg" alt="upload"> Upload</div>
+							<!-- <input type="file" name="file"/> -->
+						</div>                             
+                    </div>
+                    <div class="col-sm-12">
+                        <p class="font27">Radio Button</p>
+                        <input type="radio" id="opt1" name="opt" value="1" >
+                        <label for="age1" class="othermargin">Option 1</label>
+                        <input type="radio" id="opt2" name="opt" value="2" >
+                        <label for="age2" class="othermargin">Option 2</label>
+                    </div>
+                    <div class="col-sm-12">
+                        <p class="font27">Checkbox</p>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"  class="othermargin"> Option 1</label>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"  class="othermargin"> Option 2</label><br>
+                                        
+                    </div>
+                    <div class="col-sm-12">
+                        <p class="font27">Snackbar</p>
+                        <div class="row gx-5">
+                            <div class="col-sm-12 col-lg-6 " >
+                                <div class="radche"  style="border:1px solid #FF3535 ;color: #FF3535;"><img src="images\error-icon.svg" alt="error-icon" height="28vh" width="28vw" > This is an Error message
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-6 " >
+                                <div class="radche"  style="border: 1px solid #00B9E1; color: #00B9E1;"><img src="images\info-icon.svg" alt="info-icon" height="28vh" width="28vw">This is an Information message
+                            </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="row gx-5">
+                            <div class="col-sm-12 col-md-6 radche" ><div class="radche" style="border: 1px solid #FFA800 ;color: #FFA800;">
+                               <img src="images\warning-icon.svg" alt="warning-icon" height="28vh" width="28vw" >This is an Warning message 
+                            </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 radche" >
+                                <div class="radche" style="border: 1px solid #00AF27; color: #00AF27;">
+                                <img src="images\success-icon.svg" alt="success-icon" height="28px" width="28px" >This is an Success message
+                            </div>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12">
+                        <p class="font27">Call to action</p>
+                            <input type="button" value="Primary" id="primarybtn">
+                            <input type="button" value="Secondary" id="secondarybtn">
+                    </div>
+                    <div class="col-sm-12">
+                        <p class="font27">Tabs</p>
+                        <div class="container-fluid">
+                            <ul class="nav nav-tabs">
+                              <li><a data-toggle="pill" href="#menu1" class="tab">Tab 1</a></li>
+                              <li><a data-toggle="pill" href="#menu2" class="tab">Tab 2</a></li>
+                              <li><a data-toggle="pill" href="#menu3" class="tab">Tab 3</a></li>
+                            </ul>
+                            
+                            <div class="tab-content">
+                              <div id="menu1" class="tab-pane fade in active">
+                                <p>!!!! Select other tab to change content of tab</p>
+                              </div>
+                              <div id="menu2" class="tab-pane fade">
+                                <p>tab2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, quae. Aspernatur optio ad odit quibusdam! Quibusdam eligendi saepe reprehenderit iure, soluta distinctio labore voluptate ipsam ipsum vero beatae unde accusamus. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                              </div>
+                              <div id="menu3" class="tab-pane fade">
+                                <p>tab3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, cumque nemo quae, placeat excepturi in consequatur, quasi consequuntur eveniet repudiandae sapiente. Consequatur voluptas temporibus explicabo eius facere quisquam veritatis repellat. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+                    
+                
+                </div>
+            </form>
+          </div>
     </section>
 </body>
 </html>

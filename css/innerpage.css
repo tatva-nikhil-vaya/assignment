@@ -75,7 +75,117 @@ section{
    
     background-color: #FAFAFA;
     height: 1370px;
-    padding: 30px;
-    width: 1573px;
+    padding: 10px 40px;
+    max-width: 1573px;
+    float: left;
 
+}
+
+.form{
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    
+}
+
+section p{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.inputcol1{
+    height: 65px;
+    width: 100%;
+    margin: 13px;
+    border-radius: 5px ;
+    border: 1px solid #ADADAD; 
+}
+
+.inputcol2{
+    height: 65px;
+    width: 100%;
+    margin: 13px;
+    border-radius: 5px ;
+    border: 1px solid #ADADAD; 
+}
+.inputcol3{
+    height: 65px;
+    width: 100%;
+    margin: 13px;
+    border-radius: 5px ;
+    border: 1px solid #ADADAD; 
+}
+.inputcol4{
+    height: 65px;
+    width: 100%;
+    margin: 13px;
+    border-radius: 5px ;
+    border: 1px solid #ADADAD; 
+}
+
+form input:focus ,form textarea:focus, form select:focus{
+    border: 1px solid#FF3C3C;
+    outline: none;
+  }
+
+.othermargin{
+    margin-right: 20px;
+    font-size: large;
+}
+.radche {
+    height: 50px;
+    border-radius: 5px;
+
+    padding: 5px;
+    font-size: 14px;
+    /* padding: 13px; */
+}
+
+.tab{
+    color: #C8242F;
+    text-decoration: underline;
+    font-size: medium;
+}
+.tab::selection{
+    color: #C8242F;
+    text-decoration: underline;
+}
+
+#uploadbtn{
+    height: fit-content;
+    width: 205px;
+    font-size: large;
+    color: #C8242F;
+    border: 1px solid #C8242F;
+    border-radius: 35px;
+    padding: 15px 50px;
+    margin-top: 10px;
+}
+#primarybtn{
+    height: fit-content;
+    width: 210px;
+    font-size: large;
+    border-radius: 30px;
+    padding: 10px 50px;
+    color: white;
+    background-color: #C8242F;
+    border: 1px solid #C8242F;
+    margin-right: 17px;
+}
+#secondarybtn{
+    height: fit-content;
+    width: 210px;
+    font-size: large;
+    border-radius: 30px;
+    padding: 10px 50px;
+    color: #C8242F;
+    border: 1px solid #C8242F;
+    background-color: white;
+}
+.font27{
+    font-size: 20px;
+}
+.tab-content > div > p{
+    font-weight: lighter;
+    font-size: large;
 }

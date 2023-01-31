@@ -72,8 +72,8 @@ aside > div:hover{
     background: url("images\\dashboard-active.svg") no-repeat;
 }
 section{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     background-color:#FAFAFA;
     float: left;
     width: 1573px;
