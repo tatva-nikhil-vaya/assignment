@@ -2,7 +2,8 @@
 
 .topnav {
     overflow: hidden;
-  
+  display: flex;
+  width: 100%;
   }
   
   .topnav a {
@@ -13,7 +14,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    
+    margin: 10px 25px;
   }
   
   
@@ -43,7 +44,11 @@
   }
  
 
- 
+  @media only screen and (max-width:1880){
+    #searchbar{
+        width: 900px;
+    }
+  }
   @media only screen and (max-width:1194px) {
     /* For tablets: */
     .main {
@@ -60,7 +65,7 @@
     .menu, .main {
       width: 100%;
     }
-    h1{
+    #searchbar{
         display: none;
     }
   }

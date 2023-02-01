@@ -28,6 +28,7 @@ body {
     max-width: 100%;
     margin-bottom: 3%;
     margin-right: 15%;
+    margin-left: 15%;
 }
 .right{
     /* float: left;
@@ -87,22 +88,24 @@ body {
     color: #ADADAD;
 }
 
-.loginbtn > input{
-    background: #C8242F 0% 0% no-repeat padding-box;
+.loginbtn > a{
+    /* background: #C8242F 0% 0% no-repeat padding-box; */
+    background-color: #C8242F;
     border-radius: 23px ;
     border: none;
     opacity: 1;
-    width: 138px;
+    width: 118px;
     height: 45px;
     color: white;
-}
+    font-size: larger;
+    padding: 10px 30px;}
 
 .content2 > a{
     width: 88px;
     height: 20px;
     text-align: left;
     font: normal normal normal 15px Roboto;
-    letter-spacing: 0px;
+    /* letter-spacing: 0px; */
     color: #C8242F;
 }
 a{
@@ -113,7 +116,7 @@ a{
 }
 #forgotpd{
     margin-left: 25%;
-    margin-top: 20px;
+    
 
 }
 
